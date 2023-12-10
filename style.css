@@ -1,0 +1,147 @@
+* {
+
+    margin: 0;
+}
+
+body {
+
+border-color: #16263C;
+}
+
+.container {
+
+    display: grid;
+ 
+   
+    display: grid;
+    /* grid-template-columns: repeat(4,1fr); */
+
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    background-color: #16263C;
+
+
+    gap: 2px;
+   
+
+    /* grid-auto-rows: minmax(200px, auto) ;
+    grid-auto-columns: minmax(200px, auto); */
+}
+.left-playlist-items {
+
+    background-color: #18273C;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: white;
+
+    
+
+}
+
+
+.play-item {
+ 
+    background-color: #18273C;
+    border-left: #B8D2CD solid 10px;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    
+
+}
+
+.item {
+   
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 30px;
+
+
+}
+
+
+
+
+.play-navigation {
+
+    display: flex;
+    flex-wrap: wrap;
+     justify-items: center;
+     margin-right: 50px;
+     padding: 20px;
+     margin-top: 1px;
+     margin-bottom: 1px;
+     background-color: #29405f;
+
+
+
+
+    
+
+}
+
+.play-thumb img {
+
+    display: block;
+    justify-items: left;
+    justify-self: left;
+    padding-right: 10px;
+    
+}
+
+
+
+
+
+
+
+.header {
+    
+    background-color: #31485C;
+    grid-column-start: 1;
+    grid-column-end:-1;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   padding: 15px;
+
+
+} 
+
+
+
+.img-play-btn  img{
+
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    padding-left: 30px;
+    
+}
+
+.song-name {
+
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+
+}
+
+.song-comment {
+
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #B8D2CD;
+    padding-top: 10px;
+    
+
+}
+
+.Player {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+ 
+
